@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+.mainellipse {
+  max-width: 100%;
+  top: -78px;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bodyrect {
+  position: absolute;
+  top: 230px;
+  left: -12px;
+  max-height: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.white-circle {
+  position: absolute;
+  top: -70px;
+  right: -50px;
+}
+.yellow-circle {
+  position: absolute;
+  top: -50px;
+  right: -30px;
+}
+.header {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  max-height: 300px;
+  position: relative;
+}
+.blue-circle {
+  position: absolute;
+  top: 18px;
+  right: 117px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pink-circle {
+  position: absolute;
+  top: 110px;
+  right: 10px;
+}
+.black-button {
+  position: absolute;
+  top: 190px;
+  right: 40px;
+}
+.sort-button {
+  position: absolute;
+  top: 197px;
+  right: 48px;
+}
+.back-button {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+
+.body {
+  padding: 0% 8% 0 8%;
+}
+.job-card {
+  border-radius: 30px;
+  background-color: #f5f5ff;
+  height: 92px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.icon {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.job-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.icon-container {
+  flex: 1;
+  margin: 10px 15px 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: white;
+}
+.job-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.job-salary {
+  font-size: 15px;
+  font-weight: 300;
+}
+.header-title {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 110px;
+  left: 20px;
+}
+.category {
+  font-size: xx-large;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-weight: 800;
+}
+.jobs {
+  font-size: large;
+  font-weight: 300;
+  white-space: nowrap;
 }
