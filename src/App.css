@@ -251,7 +251,8 @@ div.card-container::-webkit-scrollbar {
   font-weight: 500;
   border-radius: 0 0 30px 30px;
   margin-top: 8px;
-  display: none;
+  display: flex;
+  visibility: hidden;
   flex-direction: column;
   justify-content: center;
   align-items: center;

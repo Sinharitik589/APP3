@@ -17,10 +17,10 @@ const Wheader = () => {
         <div
           className="card"
           onMouseOver={() => {
-            document.getElementById("apply1").style.display = "flex";
+            document.getElementById("apply1").style.visibility = "visible";
           }}
           onMouseOut={() => {
-            document.getElementById("apply1").style.display = "none";
+            document.getElementById("apply1").style.visibility = "hidden";
           }}
         >
           <div className="web-icon-container">
@@ -37,10 +37,10 @@ const Wheader = () => {
         <div
           className="card"
           onMouseOver={() => {
-            document.getElementById("apply2").style.display = "flex";
+            document.getElementById("apply2").style.visibility = "visible";
           }}
           onMouseOut={() => {
-            document.getElementById("apply2").style.display = "none";
+            document.getElementById("apply2").style.visibility = "hidden";
           }}
         >
           <div className="web-icon-container">
@@ -58,10 +58,10 @@ const Wheader = () => {
         <div
           className="card"
           onMouseOver={() => {
-            document.getElementById("apply3").style.display = "flex";
+            document.getElementById("apply3").style.visibility = "visible";
           }}
           onMouseOut={() => {
-            document.getElementById("apply3").style.display = "none";
+            document.getElementById("apply3").style.visibility = "hidden";
           }}
         >
           <div className="web-icon-container">
@@ -78,10 +78,10 @@ const Wheader = () => {
         <div
           className="card"
           onMouseOver={() => {
-            document.getElementById("apply4").style.display = "flex";
+            document.getElementById("apply4").style.visibility = "visible";
           }}
           onMouseOut={() => {
-            document.getElementById("apply4").style.display = "none";
+            document.getElementById("apply4").style.visibility = "hidden";
           }}
         >
           <div className="web-icon-container">
