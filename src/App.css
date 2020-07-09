@@ -3,7 +3,21 @@
   top: -78px;
   position: relative;
 }
-
+.web-mainellipse {
+  left: -180px;
+  top: -300px;
+  position: relative;
+}
+.blue-yellow-pink {
+  position: absolute;
+  top: -140px;
+  right: -50px;
+}
+.white-yellow-pink {
+  position: absolute;
+  top: 500px;
+  left: -100px;
+}
 .bodyrect {
   position: absolute;
   top: 230px;
@@ -27,6 +41,13 @@
   overflow-x: hidden;
   max-height: 300px;
   position: relative;
+}
+.wheader {
+  width: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+  max-height: 610px;
 }
 .blue-circle {
   position: absolute;
@@ -132,4 +153,109 @@
   font-size: large;
   font-weight: 300;
   white-space: nowrap;
+}
+.card-container {
+  width: 70%;
+  margin: 0 15% 0 15%;
+  position: absolute;
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  top: 280px;
+  height: 100vh;
+  display: block;
+  padding: 0 20px 0 20px;
+}
+div.card-container::-webkit-scrollbar {
+  display: none;
+}
+.card {
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 20%;
+  height: 210px;
+  margin: 25px 20px 25px 20px;
+  background-color: #f5f5ff;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+  background-color: #ffdd83;
+  border-radius: 30px 30px 0 0;
+}
+.web-icon-container {
+  margin: 25px 22% 25px 22%;
+  height: 100px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-title-container {
+  margin: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.web-job-title {
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: bold;
+}
+.web-job-pay {
+  font-size: small;
+  font-weight: normal;
+}
+.sort-icon {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+.left-arrow {
+  position: absolute;
+  left: 80px;
+  top: 380px;
+}
+.right-arrow {
+  position: absolute;
+  right: 80px;
+  top: 380px;
+}
+.web-header {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.web-header-title {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.web-header-sub-title {
+  font-size: 30px;
+  font-weight: normal;
+  color: gray;
+}
+.apply-button {
+  height: 60px;
+  background-color: #fee9ce;
+  box-shadow: inherit;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0 0 30px 30px;
+  margin-top: 8px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.apply-button:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
 }
