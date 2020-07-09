@@ -4,8 +4,8 @@
   position: relative;
 }
 .web-mainellipse {
-  left: -180px;
-  top: -300px;
+  left: -110px;
+  top: -350px;
   position: relative;
 }
 .blue-yellow-pink {
@@ -47,7 +47,7 @@
   overflow-y: hidden;
   overflow-x: hidden;
   position: relative;
-  max-height: 610px;
+  max-height: 100vh;
 }
 .blue-circle {
   position: absolute;
