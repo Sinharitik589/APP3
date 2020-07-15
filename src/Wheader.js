@@ -2,14 +2,16 @@ import React, { useState } from "react";
 import { Grid } from "@material-ui/core";
 const Wheader = () => {
   return (
-    <div className="wheader">
-      <img className="web-mainellipse" src="web/webEllipse.svg" />
-      <img className="sort-icon" src="web/sort.svg" />
-      <img className="blue-yellow-pink" src="web/Group 35.svg" />
+    <div>
+      <div className="wheader">
+        <img className="web-mainellipse" src="web/ellipse.svg" />
+        <img className="sort-icon" src="web/sort.svg" />
+        <img className="blue-yellow-pink" src="web/Group 35.svg" />
 
-      <div className="web-header">
-        <div className="web-header-title">UI/UX DESIGNER</div>
-        <div className="web-header-sub-title">4 Job Opportunities</div>
+        <div className="web-header">
+          <div className="web-header-title">UI/UX DESIGNER</div>
+          <div className="web-header-sub-title">4 Job Opportunities</div>
+        </div>
       </div>
       <div className="card-container">
         <Grid container>
